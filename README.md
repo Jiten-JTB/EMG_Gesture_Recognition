@@ -36,7 +36,6 @@ Supported gestures:
 
 ### Microcontrollers
 
-- ESP32-S3
 - Seeed Studio XIAO ESP32S3 Sense
   - 8 MB PSRAM
   - 8 MB Flash
@@ -216,8 +215,7 @@ Input (1 × 50)
 
 ### Prerequisites
 
-- ESP-IDF v5.4+
-- ESP32-S3 Toolchain
+- ESP-IDF v5.4
 
 ### Build
 
@@ -232,7 +230,8 @@ idf.py build
 ### Flash
 
 ```bash
-idf.py -p /dev/ttyUSB0 flash monitor
+idf.py -p /dev/ttyUSB0 flash
+idf.py -p /dev/ttyUSB0 monitor
 ```
 
 ---
@@ -263,7 +262,3 @@ The exported weights are linked directly into the ESP-IDF firmware and executed 
 ## Author
 
 Jiten
-
-B.Tech Artificial Intelligence & Data Science  
-University School of Automation and Robotics (USAR)  
-Guru Gobind Singh Indraprastha University (GGSIPU)
