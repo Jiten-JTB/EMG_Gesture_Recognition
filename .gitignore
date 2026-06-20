@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# ESP-IDF Build Output
+emg_inference_v3/build/
+
+# Generated local configuration
+emg_inference_v3/sdkconfig
+emg_inference_v3/sdkconfig.old
+
+# Build artifacts
+*.elf
+*.bin
+*.map
+*.hex
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Python
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.swp
+*.swo
